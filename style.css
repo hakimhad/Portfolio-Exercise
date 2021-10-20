@@ -1,0 +1,71 @@
+
+/*----------- HORIZONTAL PROFIL------------------*/
+.horizontal-profil{
+    width:  1046px;
+    height: 311px;
+    display: flex;
+    font-family: 'montserrat';
+    color:rgba(130, 130, 130, 1) ;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    padding: 22px 25px;
+    margin: 30px auto;
+    
+}
+.h-photo-profil img{
+    width: 240px;
+    border-radius: 20px;
+}
+.h-profil-details{
+    margin-left: 34px;
+    font-size: 18px;
+}
+.h-name-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.h-name{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79,79,79,1);
+}
+.h-presentation{
+    width: 659px;
+    margin-top: 60px;
+}
+/*----------- VERTICAL PROFIL------------------*/
+.vertical-profil{
+    width:  311px;
+    height: 1046px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat';
+    color:rgba(130, 130, 130, 1) ;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    padding: 22px 25px;
+    margin: 30px auto;
+    
+}
+.v-photo-profil img{
+    width: 240px;
+    border-radius: 20px;
+}
+.v-profil-details{
+    margin-left: 34px;
+    font-size: 18px;
+}
+.v-name-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.v-name{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79,79,79,1);
+}
+.v-presentation{
+    width: 659px;
+    margin-top: 60px;
+}
