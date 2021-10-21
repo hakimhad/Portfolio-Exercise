@@ -1,3 +1,9 @@
+.material-icons{
+    position: relative;
+    bottom: -5px;
+}
+
+
 
 /*----------- HORIZONTAL PROFIL------------------*/
 .horizontal-profil{
@@ -9,7 +15,7 @@
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
     padding: 22px 25px;
-    margin: 30px auto;
+    margin: 50px 50px;
     
 }
 .h-photo-profil img{
@@ -35,24 +41,29 @@
 }
 /*----------- VERTICAL PROFIL------------------*/
 .vertical-profil{
-    width:  311px;
-    height: 1046px;
+    width:  fit-content;
+    height: 830px;
     display: flex;
     flex-direction: column;
     font-family: 'montserrat';
     color:rgba(130, 130, 130, 1) ;
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
-    padding: 22px 25px;
-    margin: 30px auto;
+    padding: 25px 25px;
+    margin: 50px 50px;
     
 }
-.v-photo-profil img{
-    width: 240px;
-    border-radius: 20px;
+.v-photo-profil{
+    width: fit-content;
+    margin: 0 auto 30px;
 }
-.v-profil-details{
-    margin-left: 34px;
+.v-photo-profil img{
+    width: 373px;
+    border-radius: 20px;
+    
+}
+.v-profil-details p{
+    width: 350px;
     font-size: 18px;
 }
 .v-name-contact{
@@ -60,12 +71,310 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.v-name-contact{
+    width: fit-content;
+    margin-left:0 ;
+}
 .v-name{
     font-size: 24px;
     font-weight: 500;
     color: rgba(79,79,79,1);
 }
+.v-contact{
+    margin-top: 20px;
+}
 .v-presentation{
-    width: 659px;
-    margin-top: 60px;
+    margin-top: 40px;
+}
+
+/*-----------DEMO HORIZONTAL-------*/
+
+.horizontal-demo{
+    display: flex;
+    width: 1024px;
+    height: 280px;
+    font-size: 16px;
+    font-family: 'montserrat';
+    color:rgba(130, 130, 130, 1);
+    border-radius: 20px;
+    box-shadow:10px 10px 40px gray;
+    padding: 22px 12px;
+    margin: 50px 50px;
+}
+.horizontal-demo img{
+    width: 384px;
+    height: 267px;
+    border-radius: 20px;
+}
+.h-demo-infos{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.h-demo-description{
+    margin: 30px 0;
+}
+.h-demo-description div{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom:18px;
+}
+.h-demo-btn1, .h-demo-btn2{
+    display: inline-block;
+    width: 115px;
+    height:max-content ;
+    font-size: 18px;
+    font-family: 'montserrat';
+    color:rgba(47, 128, 237, 1);
+    text-align: center;
+    border: 1px solid rgba(47, 128, 237, 1);
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px 30px;
+    
+}
+#h-demo-btn1, #h-demo-btn2{
+    color:rgba(47, 128, 237, 1); 
+    text-decoration: none;
+
+}
+
+ .h-demo-btn1:hover > #h-demo-btn1, .h-demo-btn2:hover > #h-demo-btn2 {
+    color: rgb(255, 255, 255,1);
+    background-color: rgba(47, 128, 237, 1);
+}
+
+.h-demo-btn1:hover, .h-demo-btn2:hover{
+    color: rgb(255, 255, 255,1);
+    background-color: rgba(47, 128, 237, 1);
+}
+
+/* -------------DEMO VERTICAL--------------- */
+
+.vertical-demo{
+    width: 395px;
+    height: auto;
+    font-size: 16px;
+    font-family: 'montserrat';
+    color:rgba(130, 130, 130, 1);
+    border-radius: 20px;
+    box-shadow:10px 10px 40px gray;
+    padding: 22px 12px;
+    margin: 50px 50px;
+}
+.vertical-demo img{
+    width: 384px;
+    height: 267px;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+}
+.v-demo-infos{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.v-demo-description{
+    margin: 30px 0;
+}
+.v-demo-description div{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom:18px;
+}
+.v-demo-btn{
+    display: flex;
+}
+.v-demo-btn1, .v-demo-btn2{
+    display: inline-block;
+    width: 100px;
+    height:max-content ;
+    font-size: 18px;
+    font-family: 'montserrat';
+    color:rgba(47, 128, 237, 1);
+    text-align: center;
+    border: 1px solid rgba(47, 128, 237, 1);
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px 30px;
+    
+}
+#v-demo-btn1, #v-demo-btn2{
+    color:rgba(47, 128, 237, 1); 
+    text-decoration: none;
+
+}
+
+.v-demo-btn1:hover > #v-demo-btn1, .v-demo-btn2:hover > #v-demo-btn2 {
+    color: rgb(255, 255, 255,1);
+    background-color: rgba(47, 128, 237, 1);
+}
+
+.v-demo-btn1:hover, .v-demo-btn2:hover{
+    color: rgb(255, 255, 255,1);
+    background-color: rgba(47, 128, 237, 1);
+}
+
+/*----------GRAPHIQUE COMPETENCES HORIZONTAL--------------------*/
+
+.h-graph{
+    width: 1018px;
+    height: 185px;
+    border-radius: 20px;
+    box-shadow:10px 10px 40px gray;
+    padding: 22px;
+    margin: 50px 50px;
+}
+.h-graph-title{
+    font-size: 18px;
+    font-family: 'montserrat';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.h-graph-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.h-ligne1,.h-ligne2,.h-ligne3,.h-ligne4,.h-ligne5,.h-ligne6{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'montserrat';
+    color:rgba(79, 79, 79, 1);
+}
+.h-graph-all .text{
+    width: 115px;
+}
+.grey-line{
+    width: 375px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(182, 182, 182);
+}
+/* REACT */
+.h-ligne1 .blue-line{
+    width: 60px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* JS */
+.h-ligne2 .blue-line{
+    width: 300px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* CSS */
+.h-ligne3 .blue-line{
+    width: 375px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* VUE */
+.h-ligne4 .blue-line{
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* REDUX */
+.h-ligne5 .blue-line{
+    width: 100px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* REACT NATIVE */
+.h-ligne6 .blue-line{
+    width: 130px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+
+
+/*----------GRAPHIQUE COMPETENCES VERTICAL--------------------*/
+
+.v-graph{
+    width: 389px;
+    height: 324px;
+    border-radius: 20px;
+    box-shadow:10px 10px 40px gray;
+    padding: 22px;
+    margin: 50px 50px;
+}
+.v-graph-title{
+    font-size: 18px;
+    font-family: 'montserrat';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.v-graph-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.v-ligne1,.v-ligne2,.v-ligne3,.v-ligne4,.v-ligne5,.v-ligne6{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'montserrat';
+    color:rgba(79, 79, 79, 1);
+}
+.v-graph-all .text{
+    width: 115px;
+}
+.grey-line{
+    width: 250px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(182, 182, 182);
+}
+/* REACT */
+.v-ligne1 .blue-line{
+    width: 15%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* JS */
+.v-ligne2 .blue-line{
+    width: 95%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* CSS */
+.v-ligne3 .blue-line{
+    width: 100%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* VUE */
+.v-ligne4 .blue-line{
+    width: 30%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* REDUX */
+.v-ligne5 .blue-line{
+    width: 10%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
+}
+/* REACT NATIVE */
+.v-ligne6 .blue-line{
+    width: 45%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgba(47, 128, 237, 1);
 }
