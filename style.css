@@ -2,6 +2,9 @@
     position: relative;
     bottom: -5px;
 }
+body{
+    background:rgba(242, 242, 242, 1)
+}
 
 
 
@@ -386,10 +389,10 @@
     width: 1046px;
     height: fit-content;
     display: flex;
-    border: 1px solid rgba(130, 130, 130, 1);
+    /* border: 1px solid rgba(130, 130, 130, 1); */
     font-family: 'montserrat';
     border-radius: 20px;
-    box-shadow: 10px 10px 10px  rgba(130, 130, 130, 1);
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
     padding: 20px;
     margin-bottom: 30px;
     overflow: hidden;
@@ -435,10 +438,10 @@
 .blog-vertical{
     width: 550px;
     height: fit-content;
-    border: 1px solid rgba(130, 130, 130, 1);
+    /* border: 1px solid rgba(130, 130, 130, 1); */
     font-family: 'montserrat';
     border-radius: 20px;
-    box-shadow: 10px 10px 10px  rgba(130, 130, 130, 1);
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
     padding: 20px;
     margin-bottom: 30px;
     overflow: hidden;
@@ -453,7 +456,7 @@
 .v-orga-img img{
     width: 400px;
     margin: auto;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 .v-blog-blog{
     font-size: 16px;
@@ -479,4 +482,247 @@
     font-weight: 500;
     text-decoration: none;
     color: rgba(47, 128, 237, 1) ;
+}
+
+/*-------Experience horizontal---------*/
+
+.bloc-horizontal-experience{
+    width: 1046px;
+    height: fit-content;
+    /* border: 1px solid rgba(130, 130, 130, 1); */
+    font-family: 'montserrat';
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 30px;
+}
+.h-exp-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    margin-bottom: 50px;
+}
+.h-exp-entreprises{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h-exp{
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h-exp-logo img{
+    width: 84px;
+}
+.h-exp-text{
+    width: 170px;
+}
+.h-exp-date{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 10px;
+}
+.h-exp-function{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 35px;
+}
+.h-exp-p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 10px;
+}
+
+
+/*-------Experience vertical---------*/
+
+.bloc-vertical-experience{
+    width: 420px;
+    height: fit-content;
+    /* border: 1px solid rgba(130, 130, 130, 1); */
+    font-family: 'montserrat';
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 30px;
+}
+.v-exp-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    margin-bottom: 50px;
+}
+.v-exp-entreprises{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.v-exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+.v-exp-logo img{
+    width: 70px;
+}
+/* .v-exp-text{
+    width: 250px;
+} */
+.v-exp-date{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 10px;
+}
+.v-exp-function{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    margin-bottom: 35px;
+}
+.v-exp-p{
+    width: 320px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 10px;
+}
+
+/*hobbies horizontal*/
+.bloc-hobbies-horizontal{
+    width: 1050px;
+    height: fit-content;
+    font-family: 'montserrat';
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 30px;
+}
+.h-hobbies-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    margin-bottom: 30px;
+}
+.h-hobbies-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h-hobbies-item{
+    width: 320px;
+}
+.h-hobbies-img{
+    height: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.h-hobbies-img img{
+    width: 320px;
+    border-radius: 20px;
+}
+.h-hobbies-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    margin: 25px 0;
+}
+.h-hobbies-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+}
+
+/*hobbies vertical*/
+.bloc-hobbies-vertical{
+    width: max-content;
+    height: fit-content;
+    font-family: 'montserrat';
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 30px;
+}
+.v-hobbies-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    margin-bottom: 30px;
+}
+.v-hobbies-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.v-hobbies-item{
+    width: 320px;
+    margin-bottom: 35px;
+}
+.v-hobbies-img{
+    height: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.v-hobbies-img img{
+    width: 320px;
+    border-radius: 20px;
+}
+.v-hobbies-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    margin: 25px 0;
+}
+.v-hobbies-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(130, 130, 130, 1);
+}
+
+/*-----navigation 1------*/
+.navigation1{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    font-family: 'montserrat';
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
+    padding:22px;
+    margin-bottom: 30px;
+
+}
+
+/*-----navigation 2------*/
+.navigation2{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    font-family: 'montserrat';
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
+    padding:22px;
+    margin-bottom: 30px;
+
+}
+.btn-nav2-skills{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+    margin-top: 30px;
+}
+
+.btn-skills{
+    border: 1px solid rgba(79, 79, 79, 1);
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 10px 20px;
 }
