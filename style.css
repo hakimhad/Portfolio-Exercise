@@ -3,6 +3,8 @@
     bottom: -5px;
 }
 body{
+    width: auto;
+    margin: 0;
     background:rgba(242, 242, 242, 1)
 }
 
@@ -10,7 +12,7 @@ body{
 
 /*----------- HORIZONTAL PROFIL------------------*/
 .horizontal-profil{
-    width:  1046px;
+    width:  996px;
     height: 311px;
     display: flex;
     font-family: 'montserrat';
@@ -307,7 +309,7 @@ body{
 /*----------GRAPHIQUE COMPETENCES VERTICAL--------------------*/
 
 .v-graph{
-    width: 389px;
+    width: 371px;
     height: 284px;
     border-radius: 20px;
     box-shadow:10px 10px 40px gray;
@@ -551,7 +553,7 @@ body{
     font-family: 'montserrat';
     border-radius: 20px;
     box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
-    padding: 20px 40px 20px 20px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 .v-exp-title{
@@ -643,9 +645,10 @@ body{
     color: rgba(130, 130, 130, 1);
 }
 
-/*hobbies vertical*/
+/*-----hobbies vertical-------*/
+
 .bloc-hobbies-vertical{
-    width: 383px;
+    width: 371px;
     height: 836px;
     font-family: 'montserrat';
     border-radius: 20px;
@@ -702,12 +705,13 @@ body{
     box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
     padding:22px;
     margin-bottom: 30px;
+    margin-left: 50px;
 
 }
 
 /*-----navigation 2------*/
 .navigation2{
-    width: 1046px;
+    width: 996px;
     height: 139px;
     font-size: 24px;
     font-weight: 500;
@@ -715,8 +719,9 @@ body{
     font-family: 'montserrat';
     border-radius: 20px;
     box-shadow: 10px 10px 40px  rgba(130, 130, 130, 1);
-    padding:22px;
+    padding:25px;
     margin-bottom: 30px;
+    margin-left: 50px;
 
 }
 .btn-nav2-skills{
@@ -750,6 +755,10 @@ body{
 
 /*-----navigation 3------*/
 .navigation3{
+    width: 1043px;
+    margin-left: 50px;
+}
+.content-nav3{
     width: 300px;
     display: flex;
     justify-content: space-between;
@@ -777,13 +786,48 @@ body{
 
 
 /*--------style example 1---*/
-.profil-ex1{
-    /* width: 1023px; */
+
+.blog-ex1{
+    width: 556px;
 }
 .ex1-bloc2{
     display: flex;
 }
 .experience-ex1{
-    /* width: 550px;
-    padding: 20px; */
+    width: 556px;
+    height: 482px;
+    /* padding: 20px; */
 }
+.graph-ex1{
+    margin-right: 35px;
+}
+.experience-ex1 img{
+    margin-left: 20px;
+    width: 130px;
+}
+
+.ex1-bloc4{
+    display: flex;
+    margin-left: 50px;
+}
+.demo-ex1{
+    width: 284px;
+    height: auto;
+    margin: 0 ;
+    padding: 22px;
+}
+.demo-ex1 .v-demo-image{
+    text-align: center;
+
+}
+.demo-ex1 img{
+    width: 292px;
+    text-align: center;
+}
+.ex1-bloc42{
+    margin-left: 31px;
+    margin-right: 31px;
+}
+/* .navigation3{
+    align-content: flex-end;
+} */
